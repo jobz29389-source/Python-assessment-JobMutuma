@@ -36,6 +36,7 @@ plt.title("Students vs Marks")
 plt.xlabel("Name")
 plt.ylabel("Marks")
 plt.savefig("bar_chart.png")
+plt.show()
 plt.close()
 
 # g. Line graph saved as png
@@ -44,4 +45,5 @@ plt.title("Marks Trend")
 plt.xlabel("Name")
 plt.ylabel("Marks")
 plt.savefig("line_chart.png")
+plt.show()
 plt.close()
